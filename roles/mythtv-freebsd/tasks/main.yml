@@ -24,6 +24,7 @@
     - flac
     - freetype2
     - libxml2
+    - libXinerama
 
 - name: install python essentials
   pkgng: name={{ item }} state=present
